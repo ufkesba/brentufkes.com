@@ -1,10 +1,11 @@
 body {
-  background-color: #FFCC00;
+  background-color: #B0B6B2;
   padding: 20px;
   margin: 0;
 }
 h1, h2, p, ul, li {
   font-family: sans-serif;
+  color: #010B06
 }
 ul.header li {
   display: inline;
@@ -12,18 +13,18 @@ ul.header li {
   margin: 0;
 }
 ul.header {
-  background-color: #111;
+  background-color: #041F11;
   padding: 0;
 }
 ul.header li a {
-  color: #FFF;
+  color: #B0B6B2;
   font-weight: bold;
   text-decoration: none;
   padding: 20px;
   display: inline-block;
 }
 .content {
-  background-color: #FFF;
+  background-color: #C0E1CF;
   padding: 20px;
 }
 .content h2 {
