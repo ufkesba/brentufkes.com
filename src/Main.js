@@ -13,7 +13,8 @@ class Main extends Component {
       return (
         <HashRouter>
           <div>
-            <ul className="header">
+            <div className="topSpacer">File Edit Preferences</div>
+            <ul className="sidenav">
               <li><NavLink to="/">Home</NavLink></li>
               <li><NavLink to="/stuff">Stuff</NavLink></li>
               <li><NavLink to="/contact">Contact</NavLink></li>
@@ -23,6 +24,7 @@ class Main extends Component {
                 <Route path="/stuff" component={Stuff}/>
                 <Route path="/contact" component={Contact}/>
             </div>
+            <div className="bottomSpacer">Master Branch</div>
           </div>
         </HashRouter>
       );

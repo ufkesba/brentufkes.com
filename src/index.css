@@ -1,31 +1,32 @@
 body {
   background-color: #B0B6B2;
   margin: 0;
+  padding: 0;
 }
 h1, h2, p, ul, li {
   font-family: sans-serif;
   color: #010B06
 }
-ul.header li {
+ul.sidenav li {
   /* display: inline; */
   list-style-type: none;
   margin: 0;
 }
-ul.header {
+ul.sidenav {
   background-color: #1B1B1B;
   padding: 0;
   height: 100%; /* 100% Full-height */
   position: fixed; /* Stay in place */
-  z-index: 1; /* Stay on top */
-  top: 0; /* Stay at the top */
+  /* z-index: 1;
+  top: 0;  */
   left: 0;
-  overflow-x: hidden; /* Disable horizontal scroll */
-  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  overflow-x: hidden;          /* Disable horizontal scroll */
+  transition: 0.5s;           /* 0.5 second transition effect to slide in the sidenav */
   -webkit-margin-before: 0em;
   -webkit-margin-after: 0em;
   padding-top: 20px;
 }
-ul.header li a {
+ul.sidenav li a {
   color: #B0B6B2;
   font-weight: bold;
   text-decoration: none;
@@ -33,7 +34,7 @@ ul.header li a {
   display: block;
   transition: 0.3s;
 }
-ul.header li a:hover {
+ul.sidenav li a:hover {
   color: #f1f1f1;
 }
 .content {
@@ -47,4 +48,16 @@ ul.header li a:hover {
 }
 .content li {
   margin-bottom: 10px;
+}
+
+.bottomSpacer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background-color: #2396dd;
+  color: #FFFFFF;
+}
+
+.topSpacer {
+  
 }
