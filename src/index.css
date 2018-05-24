@@ -16,7 +16,7 @@ h1, h2, p, ul, li {
 .sidenav {
   background-color: #1B1B1B;
   padding: 0;
-  height: 100%; /* 100% Full-height */
+  min-height: 100%; /* 100% Full-height */
   /* z-index: 1;
   top: 0;  */
   left: 0;
