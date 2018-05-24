@@ -24,9 +24,21 @@ h1, h2, p, ul, li {
   transition: 0.5s;           /* 0.5 second transition effect to slide in the sidenav */
   -webkit-margin-before: 0em;
   -webkit-margin-after: 0em;
-  position: fixed;
+  position: fixed;            /* worked prior */
   -webkit-padding-start: 0;
+  z-index: 100;
+  position: absolute;
 }
+
+.sidenav-drawer {
+    z-index: 100;
+    position: absolute;
+    left: 80px;
+    width: 120px;
+    height: 100%;
+    background-color: grey;
+}
+
 .sidenav li a {
   color: #B0B6B2;
   font-weight: bold;
@@ -40,7 +52,7 @@ h1, h2, p, ul, li {
 }
 .content {
   background-color: #81C784;
-  padding-left: 100px;
+  padding-left: 200px;
   /* margin: 100px */
 }
 .content h2 {
