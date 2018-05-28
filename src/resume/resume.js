@@ -5,8 +5,8 @@ class resume extends Component {
     return (
       <div>
         <h2>Resume</h2>
-        <object data="../static/Resume.pdf" type="application/pdf">
-          <embed src="../static/Resume.pdf" type="application/pdf"/>
+        <object data="brentufkes.com/static/Resume.pdf?embed=true" type="application/pdf">
+          <embed src="brentufkes.com/static/Resume.pdf?embed=true" type="application/pdf"/>
         </object> 
       </div>
     );
