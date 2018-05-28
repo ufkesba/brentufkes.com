@@ -4,9 +4,9 @@ import {
   NavLink,
   HashRouter
 } from "react-router-dom";
-import Home from "./Home/Home";
-import Stuff from "./Stuff/Stuff";
-import Contact from "./Contact/Contact";
+import home from "./home/home";
+import resume from "./resume/resume";
+import contact from "./contact/contact";
 
 class Main extends Component {
     render() {
@@ -15,14 +15,14 @@ class Main extends Component {
           <div className="mainContent">
             <ul className="sidenav">
               <li><NavLink to="/">Home</NavLink></li>
-              <li><NavLink to="/stuff">Stuff</NavLink></li>
+              <li><NavLink to="/resume">Resume</NavLink></li>
               <li><NavLink to="/contact">Contact</NavLink></li>
             </ul>
             <div className="sidenav-drawer">Test</div>
             <div className="content">
-                <Route exact path="/" component={Home}/>
-                <Route path="/stuff" component={Stuff}/>
-                <Route path="/contact" component={Contact}/>
+                <Route exact path="/" component={home}/>
+                <Route path="/resume" component={resume}/>
+                <Route path="/contact" component={contact}/>
             </div>
           </div>
         </HashRouter>
