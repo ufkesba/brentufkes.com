@@ -12,8 +12,7 @@ class Main extends Component {
     render() {
       return (
         <HashRouter>
-          <div>
-            <div className="topSpacer">File Edit Preferences</div>
+          <div className="mainContent">
             <ul className="sidenav">
               <li><NavLink to="/">Home</NavLink></li>
               <li><NavLink to="/stuff">Stuff</NavLink></li>
@@ -25,7 +24,6 @@ class Main extends Component {
                 <Route path="/stuff" component={Stuff}/>
                 <Route path="/contact" component={Contact}/>
             </div>
-            <div className="bottomSpacer">Master Branch</div>
           </div>
         </HashRouter>
       );
