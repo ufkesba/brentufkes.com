@@ -22,7 +22,7 @@ body {
 
 .mainContent {
   height: 100%;
-  overflow: auto;
+  overflow: hidden;
 }
 
 h1, h2, p, ul, li {
