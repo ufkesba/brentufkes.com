@@ -3,101 +3,27 @@
   font-size: 12px;
 }
 
-body {
-  background-color: #B0B6B2;
-  margin: 0;
-  padding: 0;
-  position: relative;
+#root {
   height: 100%;
+
 }
 
-.root {
-  position: relative;
+/* body {
+  background-color: rgb(0, 0, 0);
   height: 100%;
-  height: calc(100% - (20px + 20px));
-  overflow: auto;
-  display: flex;
-  flex-flow: column;
-}
+} */
 
 .mainContent {
-  height: 100%;
-  overflow: hidden;
-}
-
-h1, h2, p, ul, li {
-  color: #e6e6e6;
-}
-.sidenav li {
-  /* display: inline; */
-  list-style-type: none;
-  margin: 0;
-}
-.sidenav {
-  background-color: #333333;
-  padding: 0;
-  min-height: 100%; /* 100% Full-height */
-  left: 0;
-  overflow-x: hidden;          /* Disable horizontal scroll */
-  transition: 0.5s;           /* 0.5 second transition effect to slide in the sidenav */
-  -webkit-margin-before: 0em;
-  -webkit-margin-after: 0em;
-  -webkit-padding-start: 0;
-  z-index: 100;
-  float: left;
-}
-
-.sidenav-drawer {
-    z-index: 100;
-    position: relative;
-    float: left;
-    width: 120px;
-    height: 100%;
-    background-color: #2c2c2c;
-    color: #e6e6e6;
-    padding: 8px 10px;
-}
-
-.sidenav li a {
-  color: #e6e6e6;
-  font-weight: bold;
-  text-decoration: none;
-  padding: 8px 10px;
-  display: block;
-  transition: 0.3s;
-}
-.sidenav li a:hover {
-  color: #ffffff;
-}
-
-.content {
-  background-color: #202020;
-  /* font-family: Consolas; */
+  background-color: #ffffff;
   font-size: 12px;
   padding: 30px;
-  position: relative;
   height: 100%;
   overflow: auto;
   flex: 1 1 auto;
 }
-.content h2 {
-  padding: 0;
-  margin: 0;
-}
-.content li {
-  margin-bottom: 10px;
-}
 
-.topSpacer {
-  height: 20px;
-}
-
-.bottomSpacer {
-  width: 100%;
-  bottom: 0;
-  background-color: #2396dd;
-  color: #FFFFFF;
-  height: 20px;
+.content {
+  height: 100%
 }
 
 html, body {
@@ -105,9 +31,6 @@ html, body {
   height: 100%;
 }
 
-.iFramePDF{
-  width: 100%;
-  position: relative;
-  overflow: hidden;
-  height: 93%;
+.iFramePDF {
+  height: 100%
 }

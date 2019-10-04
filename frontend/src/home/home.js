@@ -6,42 +6,6 @@ class Home extends Component {
       <div>
         <h2>Home</h2>
         <p>Page Under Construction</p>
-        <p>Page Under Construction</p>
-        <p>Page Under Construction</p>
-        <p>Page Under Construction</p>
-        <p>Page Under Construction</p>
-        <p>Page Under Construction</p>
-        <p>Page Under Construction</p>
-        <p>Page Under Construction</p>
-        <p>Page Under Construction</p>
-        <p>Page Under Construction</p>
-        <p>Page Under Construction</p>
-        <p>Page Under Construction</p>
-        <p>Page Under Construction</p>
-        <p>Page Under Construction</p>
-        <p>Page Under Construction</p>
-        <p>Page Under Construction</p>
-        <p>Page Under Construction</p>
-        <p>Page Under Construction</p>
-        <p>Page Under Construction</p>
-        <p>Page Under Construction</p>
-        <p>Page Under Construction</p>
-        <p>Page Under Construction</p>
-        <p>Page Under Construction</p>
-        <p>Page Under Construction</p>
-        <p>Page Under Construction</p>
-        <p>Page Under Construction</p>
-        <p>Page Under Construction</p>
-        <p>Page Under Construction</p>
-        <p>Page Under Construction</p>
-        <p>Page Under Construction</p>
-        <p>Page Under Construction</p>
-        <p>Page Under Construction</p>
-        <p>Page Under Construction</p>
-        <p>Page Under Construction</p>
-        <p>Page Under Construction</p>
-        <p>Page Under Construction</p>
-        
       </div>
     );
   }
