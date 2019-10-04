@@ -1,0 +1,17 @@
+version: '3.4'
+services:
+  backend:
+    volumes:
+      - ../backend/src:/home/dockeruser/app
+    command: ["python3", "-u", "app.py"]
+  frontend:
+    build:
+      target: npm
+    volumes:
+      - ../frontend/public:/home/dockeruser/app/public
+      - ../frontend/src:/home/dockeruser/app/src
+      - ../frontend/.env:/home/dockeruser/app/.env
+    environment:
+      - FRONTEND_API_LOC=http://localhost:8999/
+    command: ["npm", "start"]
+    restart: always
